@@ -1,5 +1,3 @@
-setwd("~/Dropbox/StochasticitySparrows")
-
 f<-read.table('GeneralData/fitness_data_newest_pedigree.txt', sep=";", header=TRUE)
 f<-f[complete.cases(f$Sex),]
 f$ringnr<-f$ID
