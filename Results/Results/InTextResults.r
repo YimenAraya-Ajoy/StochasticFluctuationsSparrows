@@ -1,6 +1,4 @@
 #First section
-setwd("~/Dropbox/StochasticitySparrows")
-
 require(rstan)
 source("Fitness/Data_manipulation_fitness_stan.r")
 md_fitness<-readRDS(file="Fitness/md_fitness.rds")
